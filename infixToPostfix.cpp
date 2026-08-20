@@ -110,8 +110,6 @@ string InfixToPostfix(string infix) {
     }
 
 
-
-
     while(!s.empty()) {
         postfix += s.pop();
     }
